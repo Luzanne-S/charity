@@ -180,6 +180,9 @@ h4,
   margin-right: -20px;
   margin-left: -20px;
 }
+video {
+  width: 100%;
+}
 @media (max-width: 991.98px) {
   .gutter-v1 {
     margin-left: -15px;
@@ -967,7 +970,8 @@ h4,
 .introLeft a,
 .about-btn1,
 .charity-btn,
-.price-btn {
+.price-btn,
+.form-btn {
   background-color: #688f4e;
   padding: 15px;
   border: none;
@@ -977,7 +981,8 @@ h4,
 .introLeft a:hover,
 .about-btn1:hover,
 .charity-btn:hover,
-.price-btn:hover {
+.price-btn:hover,
+.form-btn:hover {
   border: solid;
   border-color: #688f4e;
   background-color: transparent;
@@ -1005,6 +1010,17 @@ h4,
   width: 90%;
   height: auto;
 }
+.contact-info {
+  margin-top: 10%;
+}
+.contactImg {
+  width: 500px;
+  height: auto;
+}
+.contact-info .text-center .heading {
+  margin-top: 20%;
+}
+
 @media (max-width: 767.98px) {
   .Introcontainer {
     flex-direction: column;
@@ -1031,6 +1047,13 @@ h4,
   }
   .introLeft a {
     margin: auto;
+  }
+
+  .contact-info .text-center {
+    width: 100%;
+  }
+  .contactImg {
+    width: 90%;
   }
 }
 .untree_co-hero,
@@ -1145,25 +1168,25 @@ h4,
   min-height: 450px;
 }
 
-.untree_co-section {
+.section {
   padding: 100px 0;
   position: relative;
 }
 @media (max-width: 991.98px) {
-  .untree_co-section {
+  .section {
     padding: 50px 0;
   }
 }
-.untree_co-section .heading h3 {
+.section .heading h3 {
   font-size: 35px;
   color: #000000;
 }
 @media (max-width: 991.98px) {
-  .untree_co-section .heading {
+  .section .heading {
     font-size: 20px;
   }
 }
-.untree_co-section .heading strong {
+.section .heading strong {
   font-weight: 700;
 }
 
@@ -1519,6 +1542,9 @@ h4,
   color: #688f4e;
 }
 
+#pricing {
+  margin: 5% 0 5%;
+}
 .pricing {
   text-align: center;
   padding: 40px;
