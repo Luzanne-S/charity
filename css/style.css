@@ -1814,8 +1814,7 @@ video {
   font-size: 16px !important;
 }
 .custom-accordion .accordion-item .btn-link:before {
-  font-family: "icomoon";
-  content: "\f067";
+  content: "+";
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -1829,8 +1828,7 @@ video {
   background: #688f4e;
 }
 .custom-accordion .accordion-item .btn-link[aria-expanded="true"]:before {
-  font-family: "icomoon";
-  content: "\f068";
+  content: "-";
   position: absolute;
   color: #ffffff;
   top: 50%;
@@ -2208,9 +2206,8 @@ video {
   width: 30px;
   height: 30px;
   position: relative;
-  background-color: #ffffff;
   border-radius: 50%;
-  color: #000000;
+  color: #fff;
 }
 .site-footer .social li a:before {
   display: none;
@@ -2224,8 +2221,7 @@ video {
   transform: translate(-50%, -50%);
 }
 .site-footer .social li a:hover {
-  background: #b1d182;
-  color: #ffffff;
+  color: #b1d182af;
 }
 .site-footer .copyright {
   color: rgba(255, 255, 255, 0.5);
