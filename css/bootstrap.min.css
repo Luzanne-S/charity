@@ -2416,11 +2416,7 @@ a.btn.disabled,
 fieldset:disabled a.btn {
   pointer-events: none;
 }
-.btn-primary {
-  color: #fff;
-  background-color: #007bff;
-  border-color: #007bff;
-}
+
 .btn-primary:hover {
   color: #fff;
   background-color: #0069d9;
@@ -9303,7 +9299,7 @@ button.bg-dark:hover {
   color: #fff !important;
 }
 .text-primary {
-  color: #007bff !important;
+  color: #688f46 !important;
 }
 a.text-primary:focus,
 a.text-primary:hover {
